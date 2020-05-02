@@ -2,6 +2,9 @@
   <div class="hello">
     <h1>{{ msg }}</h1>
     <h3>{{contador}}</h3>
+    <section v-if="msgSecret">
+      <h3>Mensagem Escondida S2</h3>
+    </section>
     <br />
     <button @click="acrescentar()">Clique aqui</button> Para acrescentar
     <!--V-on pode ser substituido por "@" no exemplo acima ficou >> @click (V-on:click) -->
