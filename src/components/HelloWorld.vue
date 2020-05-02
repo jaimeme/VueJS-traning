@@ -12,6 +12,14 @@
 
 <script>
 export default {
+  methods: {
+    acrescentar() {
+      this.contador++;
+    },
+    diminuir() {
+      this.contador--;
+    }
+  },
   data() {
     return {
       contador: 0,
