@@ -6,12 +6,14 @@
       <h3>Mensagem Escondida S2</h3>
     </section>
     <br />
-    <button @click="acrescentar()">Clique aqui</button> Para acrescentar
+    <b-button variant="outline-success" @click="acrescentar()">Clique aqui</b-button>
+    <span class="textoBtn">Para aumentar</span>
     <!--V-on pode ser substituido por "@" no exemplo acima ficou >> @click (V-on:click) -->
     <!--V-bind pode ser substituido por ":" -->
     <br />
     <br />
-    <button @click="diminuir()">Clique aqui</button> Para diminuir
+    <b-button variant="outline-success" @click="diminuir()">Clique aqui</b-button>
+    <span class="textoBtn">Para diminuir</span>
   </div>
 </template>
 
@@ -56,5 +58,8 @@ li {
 }
 a {
   color: #42b983;
+}
+.textoBtn {
+  padding-left: 0.5rem;
 }
 </style>

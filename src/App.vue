@@ -9,6 +9,8 @@
 <script>
 import HelloWorld from "./components/HelloWorld.vue";
 import Lista from "./components/Lista.vue";
+import "bootstrap/dist/css/bootstrap.css";
+import "bootstrap-vue/dist/bootstrap-vue.css";
 
 export default {
   name: "App",
